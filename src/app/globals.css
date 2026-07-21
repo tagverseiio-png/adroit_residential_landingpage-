@@ -260,3 +260,38 @@ footer{background:var(--clay-soft); padding:70px 0 30px; border-top:1px solid va
   .quote-form-row{grid-template-columns:1fr; gap:30px;}
   .quote-modal{padding:35px 25px;}
 }
+
+/* ---------- THANK YOU PAGE ---------- */
+@keyframes fadeUpIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.thankyou-page{background:#0a0a0a; color:#fff; min-height:100vh; display:flex; flex-direction:column; justify-content:center; position:relative; overflow:hidden;}
+.thankyou-bg-text{position:absolute; bottom:-10%; right:-5%; font-size:30vw; font-family:var(--display); color:rgba(255,255,255,0.02); z-index:0; pointer-events:none; font-weight:800; line-height:0.8; animation: scaleIn 1.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;}
+.thankyou-content{position:relative; z-index:1; max-width:800px; padding:60px 20px;}
+.thankyou-content > .eyebrow { animation: fadeUpIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards; opacity: 0; }
+.success-icon{width:60px; height:60px; border-radius:50%; background:rgba(205,167,99,0.1); border:2px solid var(--terracotta); display:flex; align-items:center; justify-content:center; color:var(--terracotta); margin-bottom:30px; animation: scaleIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s forwards; opacity: 0;}
+.success-icon svg{width:30px; height:30px;}
+.thankyou-content h1{font-family:var(--display); font-size:clamp(48px, 8vw, 80px); font-weight:400; line-height:1.1; margin-bottom:20px; letter-spacing:0.05em; animation: fadeUpIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards; opacity: 0;}
+.thankyou-desc{color:var(--ink-dim); font-size:16px; line-height:1.6; max-width:400px; margin-bottom:40px; animation: fadeUpIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards; opacity: 0;}
+.thankyou-desc strong{color:#fff; font-weight:600;}
+.thankyou-actions{display:flex; gap:20px; align-items:center; margin-bottom:80px; flex-wrap:wrap; animation: fadeUpIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards; opacity: 0;}
+.btn.ghost-ink{background:transparent; color:#fff; border:1px solid rgba(255,255,255,0.3); padding:15px 30px; font-family:var(--mono); font-size:13px; font-weight:bold; letter-spacing:0.08em;}
+.btn.ghost-ink:hover{background:rgba(255,255,255,0.1); border-color:#fff;}
+.thankyou-stats{display:flex; gap:40px; align-items:center; flex-wrap:wrap; animation: fadeUpIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards; opacity: 0;}
+.thankyou-stats .stat{display:flex; flex-direction:column; gap:5px;}
+.thankyou-stats .stat-val{font-family:var(--display); font-size:32px; font-weight:500;}
+.thankyou-stats .stat-val.highlight{color:var(--terracotta);}
+.thankyou-stats .stat-lbl{font-family:var(--mono); font-size:12px; letter-spacing:0.1em; color:#777; font-weight:600;}
+.thankyou-stats .divider{width:1px; height:40px; background:rgba(255,255,255,0.1);}
+@media (max-width:768px){
+  .thankyou-stats{gap:20px;}
+  .thankyou-stats .divider{display:none;}
+  .thankyou-stats .stat{width:45%;}
+}
