@@ -96,9 +96,11 @@ nav{display:flex; align-items:center; justify-content:space-between; padding:20p
 .trustbar .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:14px; font-family:var(--mono); font-size:12px; letter-spacing:0.07em; color:var(--ink-dim); text-transform:uppercase;}
 
 section{padding:100px 0;}
-.section-head{max-width:640px; margin-bottom:56px;}
+.section-head{max-width:920px; margin-bottom:56px;}
 .section-head h2{font-size:clamp(27px,3.2vw,40px);}
 .section-head p{color:var(--ink-dim); margin-top:18px; font-size:16px;}
+.capabilities .eyebrow{color:var(--ink);}
+.capabilities .eyebrow::before{background:var(--ink);}
 .mid-cta{margin-top:44px; display:flex; align-items:center; gap:18px; flex-wrap:wrap;}
 .mid-cta p{font-family:var(--mono); font-size:12.5px; color:var(--ink-dim); text-transform:uppercase; letter-spacing:0.04em;}
 
