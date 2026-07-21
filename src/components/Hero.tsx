@@ -7,7 +7,7 @@ export default function Hero() {
           <h1>From floor plan to<br /><em>move-in day</em> — your home, one team.</h1>
           <p className="lead">Adroit Design designs and builds homes end-to-end — residential architecture, interiors and turnkey construction for villas, independent houses and apartments, from the first sketch to the final handover.</p>
           <div className="hero-ctas">
-            <a href="#contact" className="btn solid">Start Your Home Project</a>
+            <a href="#quote" className="btn solid">Start Your Home Project</a>
             <a href="#projects" className="btn">View Our Projects</a>
           </div>
           <div className="hero-stats">

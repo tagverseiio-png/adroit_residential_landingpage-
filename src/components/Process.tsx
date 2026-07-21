@@ -47,7 +47,7 @@ export default function Process() {
         </div>
 
         <div className="mid-cta">
-          <a href="#contact" className="btn solid">Get Your Free Quote</a>
+          <a href="#quote" className="btn solid">Get Your Free Quote</a>
         </div>
       </div>
     </section>

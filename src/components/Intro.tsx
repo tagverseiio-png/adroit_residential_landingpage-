@@ -13,7 +13,7 @@ export default function Intro() {
               <p>Because design and construction sit under one roof, the home you approve on paper is the home you get on the ground — not a compromised version of it after three different contractors have had their say.</p>
             </div>
             <div className="mid-cta">
-              <a href="#contact" className="btn solid">Book a Free Consultation</a>
+              <a href="#quote" className="btn solid">Book a Free Consultation</a>
               <p>No obligation · Response within 1 business day</p>
             </div>
           </div>

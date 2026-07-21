@@ -58,7 +58,7 @@ export default function FAQSection() {
           ))}
         </div>
         <div className="mid-cta">
-          <a href="#contact" className="btn solid">Still Have Questions? Talk to Our Team</a>
+          <a href="#quote" className="btn solid">Still Have Questions? Talk to Our Team</a>
         </div>
       </div>
     </section>

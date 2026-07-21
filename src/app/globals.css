@@ -237,3 +237,26 @@ footer{background:var(--clay-soft); padding:70px 0 30px; border-top:1px solid va
   .pl-line, .pl-fill{animation:none; stroke-dashoffset:0; opacity:0.85;}
   html{scroll-behavior:auto;}
 }
+
+/* ---------- QUOTE MODAL ---------- */
+.quote-modal-overlay{position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.85); z-index:1000; display:flex; align-items:center; justify-content:center; padding:20px;}
+.quote-modal{background:#fff; width:100%; max-width:700px; padding:45px 50px; position:relative; box-shadow:0 15px 40px rgba(0,0,0,0.4); border-radius:2px;}
+.quote-modal-close{position:absolute; top:20px; right:20px; background:none; border:none; font-size:24px; color:#aaa; cursor:pointer; transition:color 0.2s;}
+.quote-modal-close:hover{color:#333;}
+.quote-modal h2{font-size:28px; color:#111; font-weight:400; letter-spacing:0.05em; margin-bottom:12px; font-family:var(--display);}
+.quote-desc{font-size:13.5px; color:#666; margin-bottom:40px; line-height:1.6;}
+.quote-form{display:flex; flex-direction:column; gap:30px;}
+.quote-form-row{display:grid; grid-template-columns:1fr 1fr; gap:30px;}
+.quote-form input, .quote-form select, .quote-form textarea{width:100%; border:none; border-bottom:1px solid #ccc; padding:8px 0; font-family:var(--body); font-size:14.5px; color:#333; background:transparent;}
+.quote-form input:focus, .quote-form select:focus, .quote-form textarea:focus{outline:none; border-bottom-color:var(--terracotta);}
+.quote-form input::placeholder, .quote-form textarea::placeholder{color:#999;}
+.quote-form select{color:#777; cursor:pointer;}
+.quote-form select option{color:#333;}
+.quote-form textarea{resize:vertical; min-height:80px;}
+.quote-btn{background:#cda763; color:#111; font-family:var(--mono); font-size:13px; font-weight:bold; letter-spacing:0.08em; padding:15px 30px; border:none; border-radius:30px; align-self:flex-start; cursor:pointer; transition:background 0.2s; margin-top:10px; display:flex; align-items:center; gap:8px;}
+.quote-btn:hover{background:#bf944b;}
+.quote-success{padding:40px 0; text-align:center; color:#333; font-size:16px;}
+@media (max-width: 600px) {
+  .quote-form-row{grid-template-columns:1fr; gap:30px;}
+  .quote-modal{padding:35px 25px;}
+}

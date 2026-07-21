@@ -12,7 +12,7 @@ export default function Why() {
             <div className="why-item"><span className="mark">→</span><div><h4>Approvals handled for you</h4><p>Plan sanction and statutory approvals managed in-house, start to finish.</p></div></div>
           </div>
           <div className="mid-cta">
-            <a href="#contact" className="btn solid">Schedule a Free Site Visit</a>
+            <a href="#quote" className="btn solid">Schedule a Free Site Visit</a>
           </div>
         </div>
         <div className="why-visual">

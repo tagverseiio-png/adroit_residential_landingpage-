@@ -50,7 +50,7 @@ export default function Capabilities() {
           </div>
         </div>
         <div className="mid-cta">
-          <a href="#contact" className="btn solid">Get a Custom Quote</a>
+          <a href="#quote" className="btn solid">Get a Custom Quote</a>
           <p>Free site visit for serious enquiries</p>
         </div>
       </div>

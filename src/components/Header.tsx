@@ -46,7 +46,7 @@ export default function Header() {
         </div>
         <div className="nav-cta">
 
-          <a href="#contact" className="btn solid">Get a Free Quote</a>
+          <a href="#quote" className="btn solid">Get a Free Quote</a>
           <button className="menu-btn" aria-label="Menu" onClick={() => setMenuOpen(o => !o)}>
             <span /><span /><span />
           </button>
