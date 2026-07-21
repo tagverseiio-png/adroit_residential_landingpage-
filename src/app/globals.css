@@ -295,3 +295,11 @@ footer{background:var(--clay-soft); padding:70px 0 30px; border-top:1px solid va
   .thankyou-stats .divider{display:none;}
   .thankyou-stats .stat{width:45%;}
 }
+
+/* ---------- FLOATING ACTIONS ---------- */
+.floating-actions{position:fixed; bottom:30px; right:30px; display:flex; flex-direction:column; gap:12px; z-index:900;}
+.floating-btn{width:56px; height:56px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:#fff; box-shadow:0 6px 20px rgba(0,0,0,0.3); transition:transform 0.2s, box-shadow 0.2s;}
+.floating-btn:hover{transform:translateY(-3px); box-shadow:0 8px 25px rgba(0,0,0,0.4);}
+.floating-btn.phone{background:#cda763;} /* Brass */
+.floating-btn.whatsapp{background:#25D366;} /* WhatsApp Green */
+.floating-btn.chat{background:#cda763;} /* Brass */
