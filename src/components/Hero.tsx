@@ -18,16 +18,12 @@ export default function Hero() {
           </div>
         </div>
         <div className="plan-box">
-          <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid meet">
-            <rect className="pl-line" x="30" y="40" width="340" height="420" />
-            <line className="pl-line" x1="30" y1="220" x2="230" y2="220" />
-            <line className="pl-line" x1="230" y1="40" x2="230" y2="460" />
-            <line className="pl-line" x1="30" y1="340" x2="230" y2="340" />
-            <rect className="pl-fill" x="255" y="65" width="90" height="130" />
-            <rect className="pl-fill" x="55" y="360" width="150" height="80" />
-            <circle className="pl-line" cx="300" cy="330" r="30" />
-          </svg>
-          <span className="tag">Floor Plan → Finished Home</span>
+          <img 
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop" 
+            alt="Elegant Modern Residential Architecture" 
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+          />
+          <span className="tag" style={{ background: 'rgba(42,32,25,0.85)', padding: '6px 12px', color: 'var(--terracotta)', border: '1px solid rgba(196,123,79,0.3)' }}>Floor Plan → Finished Home</span>
         </div>
       </div>
     </section>
