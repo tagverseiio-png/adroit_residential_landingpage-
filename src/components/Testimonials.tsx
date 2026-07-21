@@ -11,6 +11,9 @@ export default function Testimonials() {
           <div className="testi-card"><p className="quote">&ldquo;One team for design and construction meant no finger-pointing when questions came up on site.&rdquo;</p><p className="who">Homeowner, Villa Project</p></div>
           <div className="testi-card"><p className="quote">&ldquo;Vastu requirements were built into the plan from day one, not bolted on as an afterthought.&rdquo;</p><p className="who">Homeowner, Family Residence</p></div>
         </div>
+        <div className="mid-cta">
+          <a href="#quote" className="btn solid">Become Our Next Success Story</a>
+        </div>
       </div>
     </section>
   )
