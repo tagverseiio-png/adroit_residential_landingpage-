@@ -23,9 +23,15 @@ export default function Footer() {
           </div>
           <div className="footer-col">
             <h5>Get in Touch</h5>
-            <p>+91 90000 00000</p>
-            <p>homes@adroitdesign.example</p>
-            <p>Chennai, Tamil Nadu, India</p>
+            <p>+91 99400 64343 | 08041649813</p>
+            <p>info@adroitdesigns.in</p>
+            <p>fm@adroitdesigns.in</p>
+
+            <h5 style={{ marginTop: '28px' }}>Corporate Office (Chennai)</h5>
+            <p>No 8, MCN Nagar Extension,<br />Thoraipakkam, Chennai - 97.</p>
+
+            <h5 style={{ marginTop: '28px' }}>Branch Office 1 (Bengaluru)</h5>
+            <p>SFD, P DOT G EMERALD, 16th A<br />Cross Rd, Karuna Nagar,<br />Electronic City Phase 1,<br />Doddathoguru, Bengaluru -<br />560100, Karnataka, India</p>
           </div>
         </div>
         <div className="footer-bottom">

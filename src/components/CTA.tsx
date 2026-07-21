@@ -39,7 +39,7 @@ export default function CTA() {
               <option>Design Only (No Construction)</option>
             </select>
             <textarea placeholder="Tell us about your home — location, plot/built-up area, timeline" />
-            <button type="submit" className="btn on-paper full" style={{ justifyContent: 'center' }}>Request a Free Callback</button>
+            <button type="submit" className="btn full" style={{ justifyContent: 'center', background: 'var(--clay)', color: 'var(--linen)', border: '1px solid var(--clay)' }}>Request a Free Callback</button>
             <p className="full" style={{ fontFamily: 'var(--mono)', fontSize: '11.5px', color: '#4a2c17', marginTop: '2px' }}>We reply within 1 business day. Your details are used only to contact you about this enquiry — no spam, no sharing with third parties.</p>
           </form>
         ) : (
