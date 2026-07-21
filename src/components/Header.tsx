@@ -45,7 +45,7 @@ export default function Header() {
           <a href="#faq" onClick={() => setMenuOpen(false)}>FAQ</a>
         </div>
         <div className="nav-cta">
-          <a href="tel:+919000000000" className="call-link">📞 +91 90000 00000</a>
+
           <a href="#contact" className="btn solid">Get a Free Quote</a>
           <button className="menu-btn" aria-label="Menu" onClick={() => setMenuOpen(o => !o)}>
             <span /><span /><span />

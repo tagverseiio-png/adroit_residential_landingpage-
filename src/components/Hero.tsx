@@ -11,10 +11,10 @@ export default function Hero() {
             <a href="#projects" className="btn">View Our Projects</a>
           </div>
           <div className="hero-stats">
-            <div><span className="num">150+</span><span className="lbl">Homes Delivered</span></div>
-            <div><span className="num">12+</span><span className="lbl">Years in Practice</span></div>
-            <div><span className="num">8-14 Mo</span><span className="lbl">Avg. Build Time</span></div>
-            <div><span className="num">100%</span><span className="lbl">In-House Execution</span></div>
+            <div><span className="num">150<span className="unit">+</span></span><span className="lbl">Homes Delivered</span></div>
+            <div><span className="num">12<span className="unit">+</span></span><span className="lbl">Years in Practice</span></div>
+            <div><span className="num">8-14 <span className="unit">Mo</span></span><span className="lbl">Avg. Build Time</span></div>
+            <div><span className="num">100<span className="unit">%</span></span><span className="lbl">In-House Execution</span></div>
           </div>
         </div>
         <div className="plan-box">
