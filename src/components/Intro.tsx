@@ -18,6 +18,13 @@ export default function Intro() {
             </div>
           </div>
           <div className="intro-right">
+            <div className="intro-image" style={{ marginBottom: '44px' }}>
+              <img 
+                src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop" 
+                alt="Modern Architecture" 
+                style={{ width: '100%', borderRadius: '12px', objectFit: 'cover', height: '320px', display: 'block' }} 
+              />
+            </div>
             <div className="intro-figures">
               <div className="fig"><div className="num">150+</div><div className="lbl">Homes Built &amp; Designed</div></div>
               <div className="fig"><div className="num">12+</div><div className="lbl">Years in Practice</div></div>
