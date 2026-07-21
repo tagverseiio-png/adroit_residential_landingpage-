@@ -159,9 +159,9 @@ section{padding:100px 0;}
 
 .testimonials{background:var(--linen); color:var(--clay);}
 .testi-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line-dark); border:1px solid var(--line-dark);}
-.testi-card{background:var(--linen); padding:32px 26px;}
+.testi-card{background:var(--linen); padding:32px 26px; display:flex; flex-direction:column;}
 .testi-card p.quote{font-family:var(--display); font-style:italic; font-size:20px; line-height:1.5; margin-bottom:24px; color:#3a3225;}
-.testi-card .who{font-family:var(--mono); font-size:13px; text-transform:uppercase; letter-spacing:0.05em; color:var(--sage);}
+.testi-card .who{font-family:var(--mono); font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:0.05em; color:#9c5833; margin-top:auto;}
 
 /* ---------- PROCESS ---------- */
 .process{background:var(--sage); color:var(--ink);}
