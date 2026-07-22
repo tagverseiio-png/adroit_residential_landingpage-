@@ -19,9 +19,9 @@ export default function Hero() {
         </div>
         <div className="plan-box">
           <img 
-            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop" 
+            src="/modern-house.jpg" 
             alt="Elegant Modern Residential Architecture" 
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
+            style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
           />
           <span className="tag" style={{ background: 'rgba(42,32,25,0.85)', padding: '6px 12px', color: 'var(--terracotta)', border: '1px solid rgba(196,123,79,0.3)' }}>Floor Plan → Finished Home</span>
         </div>
