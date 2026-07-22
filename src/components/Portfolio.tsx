@@ -52,7 +52,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="mid-cta">
-          <a href="#quote" className="btn solid">See More Projects — Talk to Us</a>
+          <a href="https://www.adroitdesigns.in/projects" target="_blank" rel="noopener noreferrer" className="btn solid">See More Projects — Talk to Us</a>
         </div>
       </div>
     </section>
