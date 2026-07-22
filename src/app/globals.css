@@ -237,7 +237,10 @@ footer{background:var(--clay-soft); padding:70px 0 30px; border-top:1px solid va
   .hero-stats{gap:16px;}
   .hero-stats .num{font-size:18px;}
   .hero-stats .lbl{font-size:9px;}
-  .cap-grid, .proj-grid, .testi-grid, .intro-figures{grid-template-columns:1fr;}
+  .cap-grid, .proj-grid, .testi-grid{grid-template-columns:1fr;}
+  .intro-figures{grid-template-columns:repeat(4, 1fr); gap:8px;}
+  .intro-figures .num{font-size:18px;}
+  .intro-figures .lbl{font-size:7px; letter-spacing:0; margin-top:2px;}
   .process-steps{grid-template-columns:1fr;}
   .cta-form{grid-template-columns:1fr;}
   .footer-grid{grid-template-columns:1fr; gap:32px;}
