@@ -23,7 +23,7 @@ export default function Hero() {
             alt="Elegant Modern Residential Architecture" 
             style={{ width: '100%', height: 'auto', display: 'block' }} 
           />
-          <span className="tag" style={{ background: 'rgba(42,32,25,0.85)', padding: '6px 12px', color: 'var(--terracotta)', border: '1px solid rgba(196,123,79,0.3)' }}>Floor Plan → Finished Home</span>
+          <span className="tag" style={{ background: 'rgba(42,32,25,0.85)', padding: '6px 12px', color: '#fff', border: '1px solid rgba(196,123,79,0.3)' }}>Floor Plan → Finished Home</span>
         </div>
       </div>
     </section>
