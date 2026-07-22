@@ -49,35 +49,23 @@ export default function ThankYou() {
           </div>
 
           {/* Right Column: Floating Stat Cards */}
-          <div className="relative h-[600px] hidden lg:block lg:col-span-6">
+          <div className="relative h-auto lg:h-[600px] flex flex-col gap-6 lg:block lg:col-span-6 mt-8 lg:mt-0">
             {/* Card 1: Top Right */}
-            <div className="absolute top-12 right-12 bg-[#131313] border border-[#353534] p-10 min-w-[240px] shadow-2xl z-10 hover:border-primary/50 transition-colors cursor-default">
-              <div className="font-display-lg text-5xl font-bold text-primary mb-3">
-                24h
-              </div>
-              <div className="font-label-caps text-[11px] tracking-[0.2em] uppercase text-on-surface-variant font-bold">
-                RESPONSE TIME
-              </div>
+            <div className="relative lg:absolute lg:top-12 lg:right-12 bg-[#131313] border border-[#353534] p-8 lg:p-10 min-w-[240px] shadow-2xl z-10 hover:border-primary/50 transition-colors cursor-default">
+              <div className="font-display-lg text-4xl lg:text-5xl font-bold text-primary mb-3">24h</div>
+              <div className="font-label-caps text-[11px] tracking-[0.2em] uppercase text-on-surface-variant font-bold">RESPONSE TIME</div>
             </div>
-
+            
             {/* Card 2: Middle Left (overlapping) */}
-            <div className="absolute top-[220px] left-0 bg-[#131313] border border-[#353534] p-10 min-w-[240px] shadow-2xl z-20 hover:border-primary/50 transition-colors cursor-default">
-              <div className="font-display-lg text-5xl font-bold text-primary mb-3">
-                250+
-              </div>
-              <div className="font-label-caps text-[11px] tracking-[0.2em] uppercase text-on-surface-variant font-bold">
-                GLOBAL CLIENTS
-              </div>
+            <div className="relative lg:absolute lg:top-[220px] lg:left-0 bg-[#131313] border border-[#353534] p-8 lg:p-10 min-w-[240px] shadow-2xl z-20 hover:border-primary/50 transition-colors cursor-default">
+              <div className="font-display-lg text-4xl lg:text-5xl font-bold text-primary mb-3">250+</div>
+              <div className="font-label-caps text-[11px] tracking-[0.2em] uppercase text-on-surface-variant font-bold">GLOBAL CLIENTS</div>
             </div>
-
+            
             {/* Card 3: Bottom Right (overlapping) */}
-            <div className="absolute bottom-12 right-24 bg-[#131313] border border-[#353534] p-10 min-w-[240px] shadow-2xl z-30 hover:border-primary/50 transition-colors cursor-default">
-              <div className="font-display-lg text-5xl font-bold text-primary mb-3">
-                12y
-              </div>
-              <div className="font-label-caps text-[11px] tracking-[0.2em] uppercase text-on-surface-variant font-bold">
-                DESIGN MASTERY
-              </div>
+            <div className="relative lg:absolute lg:bottom-12 lg:right-24 bg-[#131313] border border-[#353534] p-8 lg:p-10 min-w-[240px] shadow-2xl z-30 hover:border-primary/50 transition-colors cursor-default">
+              <div className="font-display-lg text-4xl lg:text-5xl font-bold text-primary mb-3">12y</div>
+              <div className="font-label-caps text-[11px] tracking-[0.2em] uppercase text-on-surface-variant font-bold">DESIGN MASTERY</div>
             </div>
           </div>
         </div>
