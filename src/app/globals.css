@@ -40,8 +40,9 @@ h1,h2,h3,h4{font-family:var(--display); font-weight:500; line-height:1.08; lette
 /* ---------- NAV ---------- */
 header{position:fixed; top:0; left:0; right:0; z-index:100; background:rgba(42,32,25,0.88); backdrop-filter:blur(10px); border-bottom:1px solid var(--line);}
 nav{display:flex; align-items:center; justify-content:space-between; padding:20px 32px; max-width:var(--maxw); margin:0 auto;}
-.logo{font-family:var(--display); font-size:20px; letter-spacing:0.02em;}
-.logo span{color:var(--terracotta);}
+.logo{display:flex; align-items:center; gap:12px; text-decoration:none;}
+.logo-icon { width: 82px; height: 82px; }
+.logo-text { text-transform: uppercase; color: white; letter-spacing: 3px; font-weight: 600; font-size: 1.25rem; }
 .nav-links{display:flex; gap:32px; font-size:14px; align-items:center; white-space:nowrap;}
 .nav-links a{opacity:0.85; transition:opacity .2s;}
 .nav-links a:hover{opacity:1; color:var(--terracotta);}
@@ -226,12 +227,34 @@ footer{background:var(--clay-soft); padding:70px 0 30px; border-top:1px solid va
   .nav-links{display:none;}
   .menu-btn{display:flex;}
   .wrap{padding:0 20px;}
+  nav{padding:15px 20px;}
+  .logo-icon{width:50px; height:50px;}
+  .logo-text{font-size:1rem; letter-spacing:1px;}
+  .logo{gap:8px;}
+  .hero{padding:120px 0 60px;}
+  .hero h1{font-size:clamp(28px, 8vw, 36px); margin-bottom:16px;}
+  .hero p.lead{font-size:15px; margin-bottom:24px;}
+  .hero-stats{gap:16px;}
+  .hero-stats .num{font-size:18px;}
+  .hero-stats .lbl{font-size:9px;}
   .cap-grid, .proj-grid, .testi-grid, .intro-figures{grid-template-columns:1fr;}
   .process-steps{grid-template-columns:1fr;}
   .cta-form{grid-template-columns:1fr;}
   .footer-grid{grid-template-columns:1fr; gap:32px;}
-  .hero-stats{gap:22px;}
-  section{padding:64px 0;}
+  section{padding:50px 0;}
+  .section-head{margin-bottom:32px;}
+  .section-head h2{font-size:clamp(24px, 7vw, 32px);}
+  .section-head p{font-size:14.5px;}
+  .intro h2{font-size:clamp(24px, 7vw, 32px);}
+  .intro-copy p{font-size:15px;}
+  .mid-cta{margin-top:40px;}
+  .timeline-line{display:none;}
+  .pstep-box{margin-top:30px; padding:24px 20px;}
+  .faq-q{font-size:15px; padding:20px 0;}
+  .cta h2{font-size:clamp(24px, 7vw, 32px);}
+  .quote-modal h2{font-size:22px;}
+  .quote-desc{font-size:13px; margin-bottom:24px;}
+  .floating-actions{bottom:70px; right:20px;} /* Avoid overlap with mobile CTA bar */
 }
 @media (prefers-reduced-motion: reduce){
   .pl-line, .pl-fill{animation:none; stroke-dashoffset:0; opacity:0.85;}

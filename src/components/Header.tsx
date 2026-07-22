@@ -12,11 +12,11 @@ export default function Header() {
   }, [])
 
   return (
-    <header style={{ boxShadow: scrolled ? '0 8px 24px rgba(0,0,0,0.25)' : 'none' }}>
+    <header className={`site-header ${scrolled ? 'scrolled' : ''}`}>
       <nav>
-        <a href="https://www.adroitdesigns.in/" target="_blank" rel="noopener noreferrer" className="logo" style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-          <AdroitIcon width={82} height={82} />
-          <span style={{ textTransform: 'uppercase', color: 'white', letterSpacing: '3px', fontWeight: '600', fontSize: '1.25rem' }}>ADROIT DESIGN</span>
+        <a href="https://www.adroitdesigns.in/" target="_blank" rel="noopener noreferrer" className="logo">
+          <AdroitIcon className="logo-icon" />
+          <span className="logo-text">ADROIT DESIGN</span>
         </a>
         <div className="nav-cta">
           <a href="#quote" className="btn solid">Get a Free Quote</a>
