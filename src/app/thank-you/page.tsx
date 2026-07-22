@@ -5,7 +5,6 @@ import MobileCTABar from '@/components/MobileCTABar'
 export default function ThankYou() {
   return (
     <>
-      <Header />
       <main className="thankyou-page">
         <div className="thankyou-bg-text">ADROIT</div>
         
